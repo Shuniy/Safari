@@ -78,7 +78,6 @@ struct AnimalDetailView: View {
             }//:VStack
             .navigationTitle(Text("Learn more about \(animal.name)")).navigationBarTitleDisplayMode(.inline)
         }//:ScrollView
-        
     }//:Body
 }
 

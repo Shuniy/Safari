@@ -17,7 +17,7 @@ struct InsetFactView: View {
             TabView {
                 ForEach(animal.fact, id:\.self) { item in
                     Text(item)
-                                    }//:ForEach
+                }//:ForEach
             }//:TabView
             .tabViewStyle(PageTabViewStyle())
             .frame(minHeight:148, idealHeight: 168, maxHeight: 180)
