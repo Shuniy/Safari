@@ -47,6 +47,7 @@
 		C391B29D282A88D00086A979 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391B29C282A88D00086A979 /* VideoListItemView.swift */; };
 		C391B29F282A9BCD0086A979 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391B29E282A9BCD0086A979 /* VideoPlayerView.swift */; };
 		C391B2A2282A9C950086A979 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391B2A1282A9C950086A979 /* VideoPlayerHelper.swift */; };
+		C391B2A4282AA2270086A979 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391B2A3282AA2270086A979 /* LocationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +112,7 @@
 		C391B29C282A88D00086A979 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		C391B29E282A9BCD0086A979 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		C391B2A1282A9C950086A979 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		C391B2A3282AA2270086A979 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +266,7 @@
 				C30603C3279E9F5900FFCEAA /* CoverImageModel.swift */,
 				C30603CA279EAEEB00FFCEAA /* AnimalModel.swift */,
 				C391B29A282A87FE0086A979 /* VideoModel.swift */,
+				C391B2A3282AA2270086A979 /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -444,6 +447,7 @@
 				C30603B8279E8BEA00FFCEAA /* VideoListView.swift in Sources */,
 				C391B29B282A87FE0086A979 /* VideoModel.swift in Sources */,
 				C30603BC279E8C1C00FFCEAA /* GalleryView.swift in Sources */,
+				C391B2A4282AA2270086A979 /* LocationModel.swift in Sources */,
 				C30603D1279EBBE100FFCEAA /* InsetGalleryView.swift in Sources */,
 				C391B29D282A88D00086A979 /* VideoListItemView.swift in Sources */,
 				C30603C7279EA0B300FFCEAA /* CodableBundleExtension.swift in Sources */,
