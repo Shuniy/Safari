@@ -21,11 +21,45 @@ struct MapView: View {
             //            MapMarker(coordinate: item.location, tint: .accentColor)
             // Custom
             MapAnnotation(coordinate: item.location) {
-                Image("logo")
+                MapAnnotationView(location: item)
+            }
+        }//:Map
+        .overlay(alignment: .top) {
+            HStack {
+                Image("compass")
                     .resizable()
                     .scaledToFit()
-                    .frame(maxWidth: 32)
+                    .frame(maxWidth: 48, alignment: .center)
+                VStack(alignment: .leading, spacing: 3) {
+                    HStack {
+                        Text("Latitude")
+                            .font(.footnote)
+                            .fontWeight(.bold)
+                            .foregroundColor(.accentColor)
+                        Spacer()
+                        Text("\(region.center.latitude)")
+                            .font(.footnote)
+                            .foregroundColor(.white)
+                    }
+                    Divider()
+                    HStack {
+                        Text("Longitude")
+                            .font(.footnote)
+                            .fontWeight(.bold)
+                            .foregroundColor(.accentColor)
+                        Spacer()
+                        Text("\(region.center.longitude)")
+                            .font(.footnote)
+                            .foregroundColor(.white)
+                    }
+                }
             }
+            .padding(.vertical, 12)
+            .padding(.horizontal, 16)
+            .background(Color.black
+                .cornerRadius(9)
+                .opacity(0.6))
+            .padding()
         }
     }
 }

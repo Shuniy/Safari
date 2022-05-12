@@ -48,6 +48,7 @@
 		C391B29F282A9BCD0086A979 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391B29E282A9BCD0086A979 /* VideoPlayerView.swift */; };
 		C391B2A2282A9C950086A979 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391B2A1282A9C950086A979 /* VideoPlayerHelper.swift */; };
 		C391B2A4282AA2270086A979 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391B2A3282AA2270086A979 /* LocationModel.swift */; };
+		C3EC81BE282D4F4F00847C4A /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EC81BD282D4F4F00847C4A /* MapAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +114,7 @@
 		C391B29E282A9BCD0086A979 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		C391B2A1282A9C950086A979 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		C391B2A3282AA2270086A979 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		C3EC81BD282D4F4F00847C4A /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +258,7 @@
 				C30603D6279EE87F00FFCEAA /* ExternalWebLinkView.swift */,
 				C391B29C282A88D00086A979 /* VideoListItemView.swift */,
 				C391B29E282A9BCD0086A979 /* VideoPlayerView.swift */,
+				C3EC81BD282D4F4F00847C4A /* MapAnnotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -444,6 +447,7 @@
 				C391B2A2282A9C950086A979 /* VideoPlayerHelper.swift in Sources */,
 				C306036E279E874F00FFCEAA /* SafariApp.swift in Sources */,
 				C30603D7279EE87F00FFCEAA /* ExternalWebLinkView.swift in Sources */,
+				C3EC81BE282D4F4F00847C4A /* MapAnnotationView.swift in Sources */,
 				C30603B8279E8BEA00FFCEAA /* VideoListView.swift in Sources */,
 				C391B29B282A87FE0086A979 /* VideoModel.swift in Sources */,
 				C30603BC279E8C1C00FFCEAA /* GalleryView.swift in Sources */,
