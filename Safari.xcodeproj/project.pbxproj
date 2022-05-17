@@ -48,11 +48,13 @@
 		C391B29F282A9BCD0086A979 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391B29E282A9BCD0086A979 /* VideoPlayerView.swift */; };
 		C391B2A2282A9C950086A979 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391B2A1282A9C950086A979 /* VideoPlayerHelper.swift */; };
 		C391B2A4282AA2270086A979 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C391B2A3282AA2270086A979 /* LocationModel.swift */; };
+		C3ACC93E2833B6CE00B0E15F /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ACC93D2833B6CE00B0E15F /* CreditsView.swift */; };
+		C3ACC9412833B7E400B0E15F /* CenterModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ACC9402833B7E400B0E15F /* CenterModifier.swift */; };
 		C3EC81BE282D4F4F00847C4A /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EC81BD282D4F4F00847C4A /* MapAnnotationView.swift */; };
 		C3EC82C32832541D00847C4A /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EC82C22832541D00847C4A /* MotionAnimationView.swift */; };
 		C3EC82C72832665200847C4A /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EC82C62832665200847C4A /* AnimalGridItemView.swift */; };
 		C3EC82CD2832736C00847C4A /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3EC82CC2832736C00847C4A /* Stickers.xcassets */; };
-		C3EC82D12832736C00847C4A /* Stickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C3EC82CA2832736900847C4A /* Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C3EC82D12832736C00847C4A /* Stickers.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C3EC82CA2832736900847C4A /* Stickers.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +141,10 @@
 		C391B29E282A9BCD0086A979 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		C391B2A1282A9C950086A979 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		C391B2A3282AA2270086A979 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		C3ACC93D2833B6CE00B0E15F /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		C3ACC9402833B7E400B0E15F /* CenterModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModifier.swift; sourceTree = "<group>"; };
+		C3ACC9422833B87700B0E15F /* Stickers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stickers.entitlements; sourceTree = "<group>"; };
+		C3ACC9432833B8C500B0E15F /* Safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Safari.entitlements; sourceTree = "<group>"; };
 		C3EC81BD282D4F4F00847C4A /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		C3EC82C22832541D00847C4A /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		C3EC82C62832665200847C4A /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
@@ -197,6 +203,8 @@
 		C306036C279E874F00FFCEAA /* Safari */ = {
 			isa = PBXGroup;
 			children = (
+				C3ACC9432833B8C500B0E15F /* Safari.entitlements */,
+				C3ACC93F2833B7DA00B0E15F /* Modifiers */,
 				C391B2A0282A9C780086A979 /* Utils */,
 				C30603C5279EA08D00FFCEAA /* Extension */,
 				C30603C2279E9F4400FFCEAA /* Model */,
@@ -293,6 +301,7 @@
 				C3EC81BD282D4F4F00847C4A /* MapAnnotationView.swift */,
 				C3EC82C22832541D00847C4A /* MotionAnimationView.swift */,
 				C3EC82C62832665200847C4A /* AnimalGridItemView.swift */,
+				C3ACC93D2833B6CE00B0E15F /* CreditsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -324,9 +333,18 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		C3ACC93F2833B7DA00B0E15F /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				C3ACC9402833B7E400B0E15F /* CenterModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
 		C3EC82CB2832736900847C4A /* Stickers */ = {
 			isa = PBXGroup;
 			children = (
+				C3ACC9422833B87700B0E15F /* Stickers.entitlements */,
 				C3EC82CC2832736C00847C4A /* Stickers.xcassets */,
 				C3EC82CE2832736C00847C4A /* Info.plist */,
 			);
@@ -527,8 +545,10 @@
 				C3EC82C72832665200847C4A /* AnimalGridItemView.swift in Sources */,
 				C30603D1279EBBE100FFCEAA /* InsetGalleryView.swift in Sources */,
 				C391B29D282A88D00086A979 /* VideoListItemView.swift in Sources */,
+				C3ACC93E2833B6CE00B0E15F /* CreditsView.swift in Sources */,
 				C30603C7279EA0B300FFCEAA /* CodableBundleExtension.swift in Sources */,
 				C3EC82C32832541D00847C4A /* MotionAnimationView.swift in Sources */,
+				C3ACC9412833B7E400B0E15F /* CenterModifier.swift in Sources */,
 				C30603CF279EBAC000FFCEAA /* HeadingView.swift in Sources */,
 				C391B29F282A9BCD0086A979 /* VideoPlayerView.swift in Sources */,
 			);
@@ -566,6 +586,7 @@
 		};
 		C3EC82D02832736C00847C4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = C3EC82C92832736900847C4A /* Stickers */;
 			targetProxy = C3EC82CF2832736C00847C4A /* PBXContainerItemProxy */;
 		};
@@ -693,6 +714,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Safari/Safari.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Safari/Preview Content\"";
@@ -711,6 +734,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.scorp.Safari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -722,6 +746,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Safari/Safari.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Safari/Preview Content\"";
@@ -740,6 +766,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.scorp.Safari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -822,6 +849,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = Stickers/Stickers.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -832,6 +860,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.scorp.Safari.Stickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -841,6 +870,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = Stickers/Stickers.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -851,6 +881,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.scorp.Safari.Stickers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
